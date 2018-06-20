@@ -1,0 +1,81 @@
+
+body{
+  min-width: 950px;
+  font-family: Rockwell;
+  font-size: 100%;
+  color: #000;
+  background: white;
+  margin: 100px;
+  margin-top: 0px;
+}
+nav{
+  background: #CCC;
+  text-align: center;
+  padding: 1em;
+}
+footer{
+  padding: 1em;
+  font-size: 75%;
+  clear: both;
+}
+#content{
+  height: auto;
+  background: grey;
+  padding: 1em;
+}
+#leftmenu{
+  width: 20%;
+  height: auto;
+  float: left;
+  background-color: #00ff99;
+  -webkit-border-radius: 10px;
+  -moz-border-raadius: 10px;
+  border-radius: 10px;
+}
+#products{
+  min-width: 500px;
+  width: 78%;
+  height: auto;
+  float: right;
+}
+a:visited {
+  color: #000;
+}
+a:hover {
+  color: #000;
+}
+nav{
+  text-align: center;
+  background-color: #333333;
+  0 0 rgba(0,0,0,0);
+  padding: 1em;
+  border: 1px solid black;
+   // this is the color of the bar that grey colour
+}
+nav ul{
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+}
+nav li{
+  float: left;
+  margin-right: 1px;
+}
+
+nav li a{
+  display: block;
+  min-width: 140px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: Rockwell;
+  text-decoration: none;
+  // this makes the nav text blocked
+}
+nav li:hover a{
+  background:#00ff99;
+  //This is the color when i hover over things like home,products and need help mint green
+}
